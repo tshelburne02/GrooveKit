@@ -1,0 +1,37 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Ignore CMake build directories
+cmake-build*/
+cmake-build-debug-visual-studio/
+CMakeBuild/
+out/build/
+build/
+x64/Debug/
+x64/Release/
+**/GrooveKit_artefacts/
+**/JuceLibraryCode/
+**/melatonin_inspector/
+EOF
+
+.idea/
+
+#ignore users database
+./third-party/database/groovekit.db
+groovekit.db
+**/.DS_Store
+
+# Ignore Visual Studio Code settings
+.vscode/
+# VSCode
+.vscode/
+# Claude config
+/CLAUDE.md
+.claude/
+/SESSION_NOTES.md
